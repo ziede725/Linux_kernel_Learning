@@ -1,0 +1,1 @@
+cmd_/linux/tools/labs/skels/./kernel_modules/5-oops-mod/oops_mod.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /linux/tools/labs/skels/./kernel_modules/5-oops-mod/oops_mod.ko /linux/tools/labs/skels/./kernel_modules/5-oops-mod/oops_mod.o /linux/tools/labs/skels/./kernel_modules/5-oops-mod/oops_mod.mod.o;  true

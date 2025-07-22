@@ -24,3 +24,23 @@ Just had to made these changes in the [Kbuild](./exercises/ex04/Kbuild) file und
 
 ![Exerice output](./assets/Ex4_result.png)
 
+[Exerice 5 : Kernel oops](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html#kernel-oops-1)
+
+Enable the -g flag for debugging in [Kbuild](./exercices/ex5/Kbuild) 
+
+Null pointer dereference happens in adress EIP = 
+
+![Exercise Output](./assets/ex5_logs_EPI.png)
+
+Using the 0x0d offset in the EIP adress we can find the exact line  using ```objdump -dS oops_mod.ko  ```objdump -dS oops_mod.ko  
+
+
+![](./assets/oops_exact_occurence.png) 
+
+Same method but with addr2line to get the line in the source files . 
+
+![](./assets/addr2line.png)
+
+
+
+
