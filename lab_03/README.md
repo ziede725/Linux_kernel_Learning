@@ -41,6 +41,9 @@ Same method but with addr2line to get the line in the source files .
 
 ![](./assets/addr2line.png)
 
+[Exerice 5 : Module parameters](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html#module-parameters)
 
+Just passing the str variable as an argument as in the following image is enough . 
 
+![](./assets/ex6_output.png)
 
