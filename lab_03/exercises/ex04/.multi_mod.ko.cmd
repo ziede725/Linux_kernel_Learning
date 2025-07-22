@@ -1,0 +1,1 @@
+cmd_/linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.ko /linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.o /linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.mod.o;  true
